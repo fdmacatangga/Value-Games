@@ -1,0 +1,110 @@
+/* PLACE YOU CUSTOM STYLES IN THIS FILE */
+.nk-user-dropdown {
+	position: absolute;
+	top: 100%;
+	right: 20px;
+	width: 315px;
+	padding: 18px;
+	padding-bottom: 30px;
+	margin-top: 11px;
+	text-align: left;
+	visibility: hidden;
+	background-color: #232930;
+	border: 1px solid #293139;
+	border-bottom: 4px solid #dd163b;
+	opacity: 0;
+	-webkit-transition: .3s opacity, .3s visibility;
+	-o-transition: .3s opacity, .3s visibility;
+	transition: .3s opacity, .3s visibility;
+	z-index: 1010;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.active-item{
+  border: 2px solid gold !important;
+}
+.hide-check{
+  display: none;
+}
+.panel-default:hover{
+	background-color: #594466;
+}
+.item-box{
+	
+}
+.active {
+    color: #fff;
+    background-color: #dd163b !important;
+    border-color: #a5102c;
+}
+.nohighlight {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.stashbox{
+	width:120px; 
+	display: inline-block; 
+	padding: 8px; 
+	position: relative;
+}
+#bet-value{
+	color: #fff;
+}
+#bets-placed{
+	color: #fff;
+}
+.vg-footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   margin: 10px; 
+}
+.vg-header {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
+
+.team-btn{
+	min-width: 200px;
+}
+.hidden{
+	display: none;
+}
+.vg-active{
+  font-weight: bold;
+  background-color: #123845;
+  border: 2px solid;
+
+}
+.speech-bubble:after { 
+  content: ''; 
+  position: absolute; 
+  bottom: 0; 
+  left: 50%; 
+  width: 0; 
+  height: 0; 
+  border: 23px solid transparent; 
+  border-top-color: #00aabb; 
+  border-bottom: 0; 
+  margin-left: -23px; 
+  margin-bottom: -23px; 
+}
+.mb10{
+  margin-bottom: 10px;
+}
